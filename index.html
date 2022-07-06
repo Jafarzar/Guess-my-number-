@@ -10,13 +10,13 @@
   <body>
     <header>
       <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Again!</button>
+      <p class="between">Between 1 and 20</p>
+      <button class="btn again">New!</button>
       <div class="number">?</div>
     </header>
     <main>
       <section class="left">
-        <input type="number" class="guess" />
+        <input type="number" class="guess" onfocus="this.value=''" />
         <button class="btn check">Check!</button>
       </section>
       <section class="right">
