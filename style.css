@@ -117,3 +117,9 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+.copyright {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
