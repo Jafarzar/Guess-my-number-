@@ -142,10 +142,10 @@ h1 {
 }
 
 .copyright {
-  /* position: absolute; */
-  /* bottom: 2rem; */
-  /* left: 2rem; */
-  margin: 1rem 1rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  max-width: 1440px;
   line-height: 1.5;
   color: yellow;
 }
